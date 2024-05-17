@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('BackGround.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    animation: gradientBG 8s ease infinite;
+}
+
+#birthdayMessage {
+    width: 50%;
+    padding: 20% 20;
+    margin: auto;
+    text-align: center;
+    font-size: 9em;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5),
+                 -1px -1px 0 #000,  
+                  1px -1px 0 #000,
+                 -1px  1px 0 #000,
+                  1px  1px 0 #000;
+    animation: colorFlow 8s ease-in-out infinite;
+}
+
+@keyframes colorFlow {
+    0%, 100% {
+        color: #e8ef0f;
+    }
+    25% {
+        color: #ff0303;
+    }
+    50% {
+        color: #0ded28;
+    }
+    75% {
+        color: #4400ff;
+    }
+}
+
+

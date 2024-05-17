@@ -1,0 +1,63 @@
+.modal-content .poem {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: center;
+    color: #fff;
+    white-space: pre-wrap;
+}
+
+.modal-content {
+    background-color: #000c;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 10;
+    top: 0;
+    width: 60%;
+    height: 60%;
+    background-color: transparent; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.from-team {
+    margin-top: 20px; 
+    font-style: italic;
+    font-size: 1em;
+    color: #ccc;
+    text-align: center; 
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    display: none;
+    z-index: 10;
+    pointer-events: none;
+}
